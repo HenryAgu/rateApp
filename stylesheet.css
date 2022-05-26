@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 200px;
+}
+
+
+.container{
+    width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.hide{
+    /* display: none; */
+}
+
+.star{
+    background: hsl(216, 12%, 54%);
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.header{
+    color: hsl(0, 0%, 100%);
+}
+
+.write-up{
+    font-size: 15px;
+}
+
+.rate-buttons{
+    text-align: center;
+}
+
+.rate-buttons button{
+    background-color:hsl(217, 12%, 63%);
+    color:white; 
+    padding: 9px 12px 9px 12px;
+    margin-right: 23px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rate-buttons button:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.submit button{
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    padding: 10px 120px 10px 120px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+/* After the click  */
+
+.report{
+    width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.second-hide{
+    display: none;
+}
+
+.rate-image img{
+    position: relative;
+}
+
+.rating{
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    margin-top: 20px;
+    background: hsl(216, 12%, 54%);
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px 0px 1px 0px;
+    border-radius: 15px;
+}
+
+.thank-you-header{
+    color: white;
+}
+
+.texts{
+   color:  hsl(217, 12%, 63%);
+   font-size: 15px;
+}
+
+.attribution {
+    display: block;
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+.second-hide{
+    display: none;
+}
