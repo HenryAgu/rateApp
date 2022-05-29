@@ -19,6 +19,9 @@ submit.addEventListener('click', (event)=>{
     firstPage.style.display = "none";
     secondPage.classList.remove('second-hide');
     rate.innerText = save;
+    if(!save){
+    rate.innerText = "0";
+    }
 })
 
 
