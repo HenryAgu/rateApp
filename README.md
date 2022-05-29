@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/HenryAgu/rateApp.git))
-- Live Site URL: (https://verdant-bienenstitch-a6313e.netlify.app/)
+- Live Site URL: (https://magnificent-snickerdoodle-197fb6.netlify.app/)
 
 ## My process
 
